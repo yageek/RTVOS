@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0316EA2051A87F00632A4C /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0316E92051A87F00632A4C /* Keys.swift */; };
+		0B0316EC2051AA0F00632A4C /* RTSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0316EB2051AA0F00632A4C /* RTSwift.framework */; };
+		0B0316ED2051AA0F00632A4C /* RTSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0316EB2051AA0F00632A4C /* RTSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0B0316EF2051AAE100632A4C /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0316EE2051AAE100632A4C /* VideoCell.swift */; };
+		0B33950620519CB000BF0992 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33950520519CB000BF0992 /* AppDelegate.swift */; };
+		0B33950D20519CB000BF0992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B33950B20519CB000BF0992 /* Main.storyboard */; };
+		0B33950F20519CB000BF0992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B33950E20519CB000BF0992 /* Assets.xcassets */; };
+		0B33951720519DD900BF0992 /* RecommendedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B33951620519DD900BF0992 /* RecommendedVC.swift */; };
+		0BB54A9E20529AE900238CC8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB54A9D20529AE900238CC8 /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B2A7E0E2051A5AB00D33B4A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0B0316ED2051AA0F00632A4C /* RTSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B0316E92051A87F00632A4C /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		0B0316EB2051AA0F00632A4C /* RTSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RTSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0316EE2051AAE100632A4C /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		0B2A7E062051A59800D33B4A /* RTSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RTSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B33950220519CB000BF0992 /* RTVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTVOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B33950520519CB000BF0992 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B33950C20519CB000BF0992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B33950E20519CB000BF0992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B33951020519CB000BF0992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B33951620519DD900BF0992 /* RecommendedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedVC.swift; sourceTree = "<group>"; };
+		0BB54A9B20529A7300238CC8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0BB54A9D20529AE900238CC8 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		0BE6BE8F20587D5F0026AC90 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B3394FF20519CB000BF0992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB54A9E20529AE900238CC8 /* AVKit.framework in Frameworks */,
+				0B0316EC2051AA0F00632A4C /* RTSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2A7E042051A59800D33B4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BB54A9D20529AE900238CC8 /* AVKit.framework */,
+				0BB54A9B20529A7300238CC8 /* AVFoundation.framework */,
+				0B2A7E062051A59800D33B4A /* RTSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B3394F920519CB000BF0992 = {
+			isa = PBXGroup;
+			children = (
+				0BE6BE8F20587D5F0026AC90 /* README.md */,
+				0B0316EB2051AA0F00632A4C /* RTSwift.framework */,
+				0B33950420519CB000BF0992 /* RTVOS */,
+				0B33950320519CB000BF0992 /* Products */,
+				0B2A7E042051A59800D33B4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B33950320519CB000BF0992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B33950220519CB000BF0992 /* RTVOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B33950420519CB000BF0992 /* RTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				0B0316E92051A87F00632A4C /* Keys.swift */,
+				0B33950520519CB000BF0992 /* AppDelegate.swift */,
+				0B33950B20519CB000BF0992 /* Main.storyboard */,
+				0B33950E20519CB000BF0992 /* Assets.xcassets */,
+				0B33951020519CB000BF0992 /* Info.plist */,
+				0B33951620519DD900BF0992 /* RecommendedVC.swift */,
+				0B0316EE2051AAE100632A4C /* VideoCell.swift */,
+			);
+			path = RTVOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B33950120519CB000BF0992 /* RTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B33951320519CB000BF0992 /* Build configuration list for PBXNativeTarget "RTVOS" */;
+			buildPhases = (
+				0B3394FE20519CB000BF0992 /* Sources */,
+				0B3394FF20519CB000BF0992 /* Frameworks */,
+				0B33950020519CB000BF0992 /* Resources */,
+				0B2A7E0E2051A5AB00D33B4A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTVOS;
+			productName = RTVOS;
+			productReference = 0B33950220519CB000BF0992 /* RTVOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B3394FA20519CB000BF0992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yageek;
+				TargetAttributes = {
+					0B33950120519CB000BF0992 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 0B3394FD20519CB000BF0992 /* Build configuration list for PBXProject "RTVOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B3394F920519CB000BF0992;
+			productRefGroup = 0B33950320519CB000BF0992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B33950120519CB000BF0992 /* RTVOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B33950020519CB000BF0992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B33950F20519CB000BF0992 /* Assets.xcassets in Resources */,
+				0B33950D20519CB000BF0992 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B3394FE20519CB000BF0992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B33951720519DD900BF0992 /* RecommendedVC.swift in Sources */,
+				0B0316EF2051AAE100632A4C /* VideoCell.swift in Sources */,
+				0B0316EA2051A87F00632A4C /* Keys.swift in Sources */,
+				0B33950620519CB000BF0992 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B33950B20519CB000BF0992 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B33950C20519CB000BF0992 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B33951120519CB000BF0992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		0B33951220519CB000BF0992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B33951420519CB000BF0992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RTVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.RTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		0B33951520519CB000BF0992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RTVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.RTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B3394FD20519CB000BF0992 /* Build configuration list for PBXProject "RTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B33951120519CB000BF0992 /* Debug */,
+				0B33951220519CB000BF0992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B33951320519CB000BF0992 /* Build configuration list for PBXNativeTarget "RTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B33951420519CB000BF0992 /* Debug */,
+				0B33951520519CB000BF0992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B3394FA20519CB000BF0992 /* Project object */;
+}
