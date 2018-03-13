@@ -1,4 +1,4 @@
-# RTVOS
+# RTVOS
 
 Basic skeleton for an tvOS RTS app.
 
